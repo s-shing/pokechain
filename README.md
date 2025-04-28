@@ -11,9 +11,7 @@ install hardhat: `npm install --save-dev hardhat`
 
 install app dependencies: `npm install ethers dotenv web3 @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle `
 
-
-
-Now, clone the github repo
+_Now, clone the github repo_
 
 ### To generate a smart contract
 
@@ -23,19 +21,18 @@ Now, clone the github repo
 
 `touch .env`
 
-edit/vim .env to include:
-
+_edit/vim .env to include:_
 PRIVATE_KEY=[metamask private key]
 
 INFURA_API_KEY=[alchemy/infuria key]
 
 
 
-FOR INFURIA
+_FOR INFURIA_
 
 you need to change the hardhat.config.js to the infuria api URL
 
-FOR ALCHEMY 
+_FOR ALCHEMY_ 
 
 no change
 
@@ -45,7 +42,7 @@ no change
 
 
 
-Save the resulting contract address!
+_Save the resulting contract address!_
 
 ### To run on an existing contract
 `cd pokechain`
@@ -55,7 +52,7 @@ Save the resulting contract address!
 `touch .env`
 
 
-edit/vim .env to include:
+_edit/vim .env to include:_
 
 REACT_APP_CONTRACT_ADDRESS=[DEPLOYED_CONTRACT_ADDRESS]
 
@@ -65,8 +62,7 @@ REACT_APP_CONTRACT_ADDRESS=[DEPLOYED_CONTRACT_ADDRESS]
 `npm start`
 
 
-It should automatically open the browser to the webpage. If it does not, navigate to localhost:3000/
-
+_It should automatically open the browser to the webpage. If it does not, navigate to localhost:3000/_
 
 
 
