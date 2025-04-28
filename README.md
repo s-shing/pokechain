@@ -20,9 +20,11 @@ PRIVATE_KEY=[metamask private key]
 INFURA_API_KEY=[alchemy/infuria key]
 
 FOR INFURIA
+
 you need to change the hardhat.config.js to the infuria api URL
 
 FOR ALCHEMY 
+
 no change
 
 npx hardhat run scripts/deploy.js --network sepolia
