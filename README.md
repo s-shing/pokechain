@@ -22,6 +22,7 @@ _Now, clone the github repo_
 `touch .env`
 
 _edit/vim .env to include:_
+
 PRIVATE_KEY=[metamask private key]
 
 INFURA_API_KEY=[alchemy/infuria key]
