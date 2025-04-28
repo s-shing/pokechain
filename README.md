@@ -5,13 +5,14 @@ PokeChain is an NFT-based marketplace that allows you to trade Pokémon in retur
 
 ## Dependencies
 
-start by installing nodejs & npm: `apt install npm (or mac/windows equivalent)`
+_Start by cloneing the github repo_
+
+install nodejs & npm: `apt install npm (or mac/windows equivalent)`
 
 install hardhat: `npm install --save-dev hardhat`
 
 install app dependencies: `npm install ethers dotenv web3 @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle `
 
-_Now, clone the github repo_
 
 ## To generate a smart contract
 
