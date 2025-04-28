@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+.display{
+  display:flex;
+
+}
+.App-header img{
+  max-height: 8vh;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+.pokemon img{
+   max-height: 400px;
+}
+.requests img{
+  max-height: 50px;
+  margin-left:10px;
+}
+.requests {
+  padding: 20px;
+  margin:auto;
+  width: auto;
+
+
+}
+.request {
+  display: flex;
+  margin:auto;
+  width:auto;
+}
+.request p {
+  margin:auto;
+  text-wrap:balance;
+
+}
+.trades{
+  display:block;
+  width:40%;
+}
+.showTrades{
+  height:auto;
+}
+.buttons{
+  display:flex;
+  width:100%;
+  justify-content: center;
+
+}
+.buttons button{
+  margin-left:40px;
+  margin-right:40px;
+
+  margin-bottom:30px;
+
+}
+.pokemon{
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+  justify-content: center;
+
+}
+
+button{
+  width: 30%;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Toolbar {
+  background-color: #282c34;
+  min-height: 30%;
+  height: 10vh;
+  display: block;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  text-decoration: none;
+}
+.App-header a{
+  text-decoration: none;
+  color: white;
+
+}
+.toolbarElem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  margin-left:10px;
+  margin-right:2%;
+}
+#profile{
+  margin-left:-5%;
+}
+.nav a{
+  text-decoration: none;
+  color:antiquewhite;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
