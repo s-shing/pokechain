@@ -46,7 +46,7 @@ no change
 
 _Save the resulting contract address!_
 
-### To run on an existing contract
+## To run on an existing contract
 `cd pokechain`
 
 `cd pokechain-app`
