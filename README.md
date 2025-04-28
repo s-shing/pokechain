@@ -16,7 +16,9 @@ Now, clone the github repo
 ### To generate a smart contract
 
 `cd pokechain`
+
 `cd pokechain-contract`
+
 `touch .env`
 
 edit/vim .env to include:
@@ -39,13 +41,17 @@ Save the resulting contract address!
 
 ### To run on an existing contract
 `cd pokechain`
+
 `cd pokechain-app`
+
 `touch .env`
 
 edit/vim .env to include:
+
 REACT_APP_CONTRACT_ADDRESS=[DEPLOYED_CONTRACT_ADDRESS]
 
 `npm install`
+
 `npm start`
 
 It should automatically open the browser to the webpage. If it does not, navigate to localhost:3000/
