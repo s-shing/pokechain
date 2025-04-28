@@ -4,16 +4,44 @@ PokeChain is an NFT-based marketplace that allows you to trade Pokémon in retur
 
 
 ## Dependencies
-start by installing nodejs -- npm 
+start by installing nodejs & npm: apt install npm (or mac/windows equivalent)
+install hardhat: npm install --save-dev hardhat
+install app dependencies: npm install ethers dotenv web3 @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle 
 
 Now, clone the github repo
 
 ### To generate a smart contract
 cd pokechain
 cd pokechain-contract
+touch .env
 
+edit/vim .env to include:
+PRIVATE_KEY=[metamask private key]
+INFURA_API_KEY=[alchemy/infuria key]
+
+FOR INFURIA
+you need to change the hardhat.config.js to the infuria api URL
+
+FOR ALCHEMY 
+no change
+
+npx hardhat run scripts/deploy.js --network sepolia
+
+Save the resulting contract address!
 
 ### To run on an existing contract
 cd pokechain
-cd pokechain-contract
-touch 
+cd pokechain-app
+touch .env
+
+edit/vim .env to include:
+REACT_APP_CONTRACT_ADDRESS=[DEPLOYED_CONTRACT_ADDRESS]
+
+npm install
+npm start
+
+It should automatically open the browser to the webpage. If it does not, navigate to localhost:3000/
+
+
+
+
