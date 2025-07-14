@@ -5,7 +5,7 @@ PokeChain is an NFT-based marketplace that allows you to trade Pokémon in retur
 
 ## Dependencies
 
-_Start by cloneing the github repo_
+_Start by cloning the github repo_
 
 install nodejs & npm: `apt install npm (or mac/windows equivalent)`
 
@@ -32,7 +32,7 @@ INFURA_API_KEY=[alchemy/infuria key]
 
 _FOR INFURIA_
 
-you need to change the hardhat.config.js to the infuria api URL
+change the hardhat.config.js to the infuria api URL
 
 _FOR ALCHEMY_ 
 
